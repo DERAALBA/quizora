@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: #f5f6fc;
+  color: #20213d;
+  min-width: 320px;
+}
+
+button, input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button, input {
+  outline-offset: 3px;
+}
+
+button {
+  border: none;
+}
+
+button, a, input {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: #ded7ff;
+  color: #5140b8;
+}
